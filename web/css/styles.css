@@ -1,0 +1,313 @@
+html,body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,pre,form,p,blockquote,fieldset,input { margin: 0; padding: 0; }
+body { background-color: #1b1b1b; color: #3d3d3d; word-wrap: break-word; min-width: 800px; }
+html { margin:0;padding:0;width:100%;height:100%;}
+h1, h2, h3, h4, h5 { font-weight: normal; line-height: normal; }
+h1 { font-size: 1.5em; } h2 { font-size: 1.4em; } h3 { font-size: 1.3em; } h4 { font-size: 1.2em; } h5 { font-size: 1.1em; }
+
+a { text-decoration: none;}
+a:hover {text-decoration: none;}
+a img  { border: 0 none; }
+.name-color-red a { color: #bc1622; text-decoration: none; }
+.name-color-red a:hover { text-decoration: underline; }
+
+
+input, textarea, select, button, body { 
+font: normal 13px/17px Tahoma, "Trebuchet MS", Helvetica, sans-serif;
+}
+
+input, textarea, select, button, a { outline: none; }
+select {
+border-width: 1px;
+border-style: solid;
+border-color: #dddddd;
+border-radius: 4px;
+box-shadow: 0pt 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+#sheet{
+width: 100%;
+background-color: #fff;
+padding: 10px 10px 5px 10px;
+}
+
+.onesymb
+{
+width:1em;
+text-align: center;
+}
+
+#text{
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+}
+
+td.price
+{
+    border: 1px solid #aaa;
+}
+
+th.price
+{
+    border: 1px solid #aaa;
+}
+
+.flatopt
+{
+    padding: 10px 20px; 
+}
+.resizedfield
+{
+    width: 700px;
+}
+
+.inptext
+{
+    width:200px;
+}
+
+.optfield
+{
+    display:block;
+   /* float:left; */
+    width:200px;
+    text-align: left; 
+    padding: 10px 20px;
+}
+.saveoptbutt
+{
+width:120px;
+height: 40px;
+}
+.smallinp
+{
+    width:50px;
+}
+
+.optcapt
+{
+   padding:0px;
+   font-weight: normal; 
+   line-height: normal;
+   width:300px;
+}
+.suboptcapt
+{
+   padding: 0px 5px;
+   display:inline;
+}
+
+#sheet-reg{
+width: 100%;
+background-color: #fff
+}
+
+#top {
+background-color: #e7e7e7;
+height: 56px;
+width: 98%;
+}
+.logo{
+width: 200px; height: 54px;
+background: url("../img/bently.jpg") no-repeat 25px 2px;
+float: left;
+}
+.top-right{
+
+float: right;
+padding: 23px 22px 0 0;
+font-size: 18px;
+text-align: right;
+}
+.login{
+font-size: 12px;
+text-align: right;
+}  
+#top-line{
+height: 36px;
+background: url("../img/top-line.png") repeat-x;
+}
+#content{
+padding: 5px 30px 16px 30px;
+margin-bottom: 5px;
+}
+.content-table{
+border-width: 1px;
+border-style: solid;
+border-color: #aaa;
+border-radius: 6px;
+}
+#inner-content{
+padding: 10px 5px 0px 20px;
+/*min-height: 1500px;  */
+min-height:500px;
+height:100%;
+}
+
+#top-menu{
+margin: 5px;
+height: 27px;
+background: url("../img/menu.png") repeat-x;
+}
+#footer{
+border-top:1px solid #ddd;
+padding: 9px;
+font-size: 10px;
+} 
+input{
+width:170px;
+}
+
+#login-form{
+padding-top: 160px;
+width: 350px;
+height: 250px;                                                                                                                     
+margin: 0 auto;   
+background: url("../img/lc200.jpg") no-repeat 20% 45%;
+
+position:absolute;   
+display: block;   
+left:50%;
+margin-left:-150px;
+
+} 
+#send-form{
+padding-top: 57px;
+padding-left: 17px;
+padding-right : 17px;
+padding-bottom : 17px;
+margin-top: 70px;
+line-height: 22px;
+}
+#reg-form{
+padding-top: 90px;
+width: 350px;
+height: 150px;
+margin: 0 auto;
+background: url("../img/lc200.jpg") no-repeat 20% 55%;
+position:absolute;
+    top:50%;
+    left:50%;
+    margin-top:-240px;
+    margin-left:-150px;
+}
+#send-reg-form{
+padding: 17px;
+margin-top: 70px;
+line-height: 22px;
+}
+ 
+.tabs,.pills{margin:0 0 18px;padding:0;list-style:none;zoom:1;}.tabs:before,.pills:before,.tabs:after,.pills:after{display:table;content:"";zoom:1;}
+.tabs:after,.pills:after{clear:both;}
+.tabs>li,.pills>li{float:left;}
+.tabs>li>a,.pills>li>a{display:block;background-color: #ededed;}
+.tabs>li{font-weight:bold;position:relative;margin-bottom:-1px;margin-top:3px;}
+.tabs>li>a{color: #7d7d7d;padding:0 15px;margin-right:2px;line-height:23px;border:1px solid #aaa;-webkit-border-radius:5px 5px 0 0;-moz-border-radius:5px 5px 0 0;border-radius:5px 5px 0 0;}
+.tabs>li>a:hover{text-decoration:none;background-color:#fff;border-color:#aaa;}
+.tabs .active>a,.tabs .active>a:hover{color:#000;background-color:#ffffff;border:1px solid #ccc;border-bottom-color:transparent;cursor:pointer;}
+.tabs .active2>a{color:#44a1c7;background-color:#fff;border:1px solid #ddd;border-bottom-color:transparent;cursor:pointer;}
+.tabs .active2>a:hover{color:#44a1c7;background-color:#eee;border:1px solid #ddd;border-bottom-color:transparent;cursor:pointer;}
+
+table.stat_table
+{
+    margin-right: 20px;
+}
+
+table.stat_table td, th
+{
+    border-color: #bbbbbb;
+    padding: 2px 10px 2px 10px;
+}
+
+table.stat_table td.up                                                                                                                        
+{
+    background-color: #aaffaa;
+    vertical-align: top;
+}
+
+table.stat_table td.down
+{
+    background-color: #ffaaaa;
+    vertical-align: top;
+}
+
+table.links_table a
+{
+    color: blue;
+}
+
+table.stat_table a
+{
+    color: blue;
+}
+
+h5.ok_msg
+{
+    color: green;
+    font-weight: bold;
+}
+
+h5.msg
+{
+    color: green;
+    font-weight: bold;
+    padding-bottom: 2px;
+}
+.logbtn
+{
+    height:50px; 
+    width:100px;                                                                                                                                                            
+    font-size:15px;
+}
+
+.hideborder > th {
+   border-style: hidden;
+}
+
+.bigfield {
+  
+   height: 104px; // высота на свое усмотрение
+   width: 120px; // ширина на свое усмотрение
+  
+   vertical-align: top; 
+   padding: 1px;
+   
+}
+
+table.auto_table
+{
+
+    margin-bottom: 7px;
+}
+
+table.auto_table td
+{
+
+}
+
+
+h3.head
+{
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    margin-top: 7px;
+    margin-bottom: 3px;
+}
+
+a.active
+{
+    color: #880000; 
+    text-decoration: underline;
+}
+
+a.article
+{
+    text-decoration: none; /* Убираем подчеркивание */
+    border-bottom: 1px dashed #000080; /* Добавляем свою линию */ 
+}
+
+tr.title_row td
+{
+    font-size: 12px;
+}
