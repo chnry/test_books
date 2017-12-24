@@ -1,0 +1,32 @@
+
+list:
+    path:     /list
+    defaults: { _controller: AppBundle:GenreController:list }
+
+add:
+    path:     /add
+    defaults: { _controller: AppBundle:GenreController:add }
+
+edit:
+    path:     /edit
+    defaults: { _controller: AppBundle:GenreController:edit }
+
+new:
+    path:     /new
+    defaults: { _controller: AppBundle:GenreController:new }
+
+delete:
+    path:     /delete
+    defaults: { _controller: AppBundle:GenreController:delete }
+
+list:
+    path:     /list
+    defaults: { _controller: AppBundle:Author:list }
+
+list:
+    path:     /list
+    defaults: { _controller: AppBundle:Books:list }
+
+list:
+    path:     /list
+    defaults: { _controller: AppBundle:Profile:list }

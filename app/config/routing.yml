@@ -1,6 +1,15 @@
 app:
     resource: '@AppBundle/Controller/'
     type: annotation
+books:
+    path:      /books
+    defaults:  { _controller: AppBundle:Books:list }
+authors:
+    path:      /authors
+    defaults:  { _controller: AppBundle:Author:list }
 genres:
     path:      /genres
     defaults:  { _controller: AppBundle:Genre:list }
+profile:
+    path:      /profile
+    defaults:  { _controller: AppBundle:Profile:list}
