@@ -1,0 +1,12 @@
+{% block body %}
+
+<h1>Новый пользователь</h1>
+{{ form_start(form) }}
+    {{ form_row(form.name) }}
+    {{ form_row(form.login) }}
+    {{ form_row(form.password.first) }}
+    {{ form_row(form.password.second) }}
+    <button type="submit">Зарегистрироваться</button>
+{{ form_end(form) }}
+
+{% endblock %}
