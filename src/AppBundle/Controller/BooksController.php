@@ -8,7 +8,12 @@ class BooksController extends Controller
 {
     public function listAction()
     {
-        return $this->render('AppBundle:Books:list.html.twig', array(
+ 		$user = $this->get('security.token_storage')
+            ->getToken()
+            ->getUser();
+        //var_dump($user);
+            
+                    return $this->render('AppBundle:Books:list.html.twig', array(
             // ...
         ));
     }

@@ -1,0 +1,20 @@
+{% block body %}
+<h1>Авторизация</h1>
+{% if error %}
+    <div>{{ error.messageKey|trans(error.messageData, 'security') }}</div>
+{% endif %}
+
+<form action="{{ path('login') }}" method="post">
+    <label for="login">Логин:</label>
+    <input type="text" id="login" name="_login" value="{{ last_login }}" />
+    <br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="_password" />
+
+    <input type="hidden" name="_target_path" value="{{ path('homepage') }}" />
+    <a href="{{ path('user_registration') }}">Регистрация</a>
+    
+    <br>
+    <button type="submit">login</button>
+</form>
+{% endblock %}
