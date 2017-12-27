@@ -22,12 +22,19 @@ security:
 
             # https://symfony.com/doc/current/security/form_login_setup.html
             form_login:
-                login_path: login_user
-                check_path: login_user
+                login_path: login
+                check_path: login
             logout:
-                path: /logout/
-                target: /
+                path:   /logout
+                target: /login
+                invalidate_session: false
+                delete_cookies:
+                    a: { path: null, domain: null }
+                    b: { path: null, domain: null }
     access_control:
-        - { path: /user/, roles: IS_AUTHENTICATED_FULLY }
+        - { path: /books, roles: IS_AUTHENTICATED_FULLY }
+        - { path: /authors, roles: IS_AUTHENTICATED_FULLY }
+        - { path: /genres, roles: IS_AUTHENTICATED_FULLY }
+        - { path: /profile, roles: IS_AUTHENTICATED_FULLY }
     encoders:
         AppBundle\Entity\User: bcrypt
