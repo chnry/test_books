@@ -22,11 +22,13 @@ class SecurityController extends Controller
         ));
     }
     
+    /*
     public function logoutAction()
 	{
 		$this->tokenStorage->setToken(null);
 		return $this->redirectToRoute('login');
 	}
+	*/
 
 }
 
