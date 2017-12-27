@@ -27,7 +27,7 @@ security:
             logout:
                 path: /logout/
                 target: /
-	access_control:
-		- { path: /user/, roles: IS_AUTHENTICATED_FULLY }                
+    access_control:
+        - { path: /user/, roles: IS_AUTHENTICATED_FULLY }
     encoders:
         AppBundle\Entity\User: bcrypt
